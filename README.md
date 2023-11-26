@@ -28,4 +28,4 @@ Running on a 1 minute wav file on a 10-core M1 Pro.
 
 ### Author
 
-- [Christian Privitelli](https://github.com/Priva28)
+- [Christian Privitelli](https://github.com/Priva28) ([@priva28_](https://twitter.com/priva28_))
