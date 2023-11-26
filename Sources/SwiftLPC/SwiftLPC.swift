@@ -4,6 +4,8 @@ import Accelerate
 import Foundation
 
 public class LinearPredictiveCoding {
+    public init() {}
+
     public func computeLpc(_ y: [Float], order: Int) -> [Float] {
         var arCoeffs = [Float](repeating: 0.0, count: order + 1)
         var arCoeffsPrev = [Float](repeating: 0.0, count: order + 1)
