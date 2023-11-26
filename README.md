@@ -1,10 +1,10 @@
 # SwiftLPC: High-Performance Linear Predictive Coding in Swift
 
-SwiftLPC is a small library that performs Linear Predictive Coding. LPC is a powerful tool in speech processing, used for efficiently encoding the spectral characteristics of speech. 
+SwiftLPC is a small library that performs Linear Predictive Coding. LPC is a powerful tool in speech processing, used for efficiently encoding the spectral characteristics of speech. SwiftLPC takes full advantage of the Accelerate framework for optimal performance.
 
 This implementation uses Burg’s method and is essentially a conversion of the existing implementation in the [librosa](https://librosa.org/doc/0.10.1/generated/librosa.lpc.html#librosa.lpc) Python library.
 
-With a native Swift implementation of this algorithm we can get significantly improved performance however, and the ability to run the analysis on large audio files directly on mobile devices. SwiftLPC takes full advantage of the Accelerate framework for optimal performance.
+With a native Swift implementation of this algorithm we can get significantly improved performance, and the ability to run analysis on large audio files directly on mobile devices.
 
 ### Example Usage
 
